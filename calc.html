@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>SBTE GPA Calculator</title>
+  <meta name="description" content="Simple Calculator With Dark Mode." />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" type="image/x-icon" href="assets/calculator.ico">
+  <link rel="stylesheet" href="styles/dark.css" id="theme" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap" rel="stylesheet">
+</head>
+
+<body onload="onLoadCalcPage()">
+  <div class="wrapper">
+    <div class="container">
+      <div class="header-container">
+        <!-- This heading also notifies about the theme change.-->
+        <h1 id="toast"></h1>
+        <div class="top-buttons">
+          <button type="button" onclick="alert('Previous Selections are Cleared')" class="theme-button">
+            <img src="assets/BackDark.png" alt="Theme Icon" height="50" width="50" id="back-icon">
+          </button>
+          <a href="https://github.com/nlkguy">
+            <img src="assets/GitHubLight.svg" alt="Sun Icon" height="25" width="25" id="github-icon">
+          </a>
+          <button type="button" onclick="changeTheme()" class="theme-button">
+            <img src="assets/SunIcon.svg" alt="Theme Icon" height="25" width="25" id="theme-icon">
+          </button>
+        </div>
+      </div>
+      
+      <table class="gradeTable">
+        <thead>
+            <th>Subject</th>
+            <th>Code</th>
+            <th>Type</th>
+            <th>Category</th>
+            <th>Credit</th>
+            <th>Grade</th>
+        </thead>
+
+        <tbody class="gradeTbody">
+
+        </tbody>
+    </table>
+
+    </table>
+
+
+      <input type="button" value="Calculate" onclick="getGrades()"/>
+
+
+    </div>
+    <h5>developed by <a href="https://www.github.com/nlkguy">@nlkguy</a></h5>
+  </div>
+  <script src="scripts/script.js"></script>
+</body>
+
+</html>

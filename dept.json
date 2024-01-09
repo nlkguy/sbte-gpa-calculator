@@ -1,0 +1,107 @@
+[
+    {
+      "slno": 1,
+      "deptname": "Architecture",
+      "dept": "AR"
+    },
+    {
+      "slno": 2,
+      "deptname": "Automobile Engineering",
+      "dept": "AU"
+    },
+    {
+      "slno": 3,
+      "deptname": "Biomedical Engineering",
+      "dept": "BM"
+    },
+    {
+      "slno": 4,
+      "deptname": "Chemical Engineering",
+      "dept": "CH"
+    },
+    {
+      "slno": 5,
+      "deptname": "Civil Engineering",
+      "dept": "CE"
+    },
+    {
+      "slno": 6,
+      "deptname": "Commercial Practice",
+      "dept": "CP"
+    },
+    {
+      "slno": 7,
+      "deptname": "Computer Application & Business Management",
+      "dept": "CB"
+    },
+    {
+      "slno": 8,
+      "deptname": "Computer Engineering",
+      "dept": "CT"
+    },
+    {
+      "slno": 9,
+      "deptname": "Computer Hardware Engineering",
+      "dept": "CM"
+    },
+    {
+      "slno": 10,
+      "deptname": "Electrical & Electronics Engineering",
+      "dept": "EE"
+    },
+    {
+      "slno": 11,
+      "deptname": "Electronics and Communication",
+      "dept": "EC"
+    },
+    {
+      "slno": 12,
+      "deptname": "Electronics Engineering",
+      "dept": "EL"
+    },
+    {
+      "slno": 13,
+      "deptname": "Information Technology",
+      "dept": "IF"
+    },
+    {
+      "slno": 14,
+      "deptname": "Instrumentation Engineering",
+      "dept": "IE"
+    },
+    {
+      "slno": 15,
+      "deptname": "Manufacturing Technology",
+      "dept": "MT"
+    },
+    {
+      "slno": 16,
+      "deptname": "Mechanical Engineering",
+      "dept": "ME"
+    },
+    {
+      "slno": 17,
+      "deptname": "Polymer Technology",
+      "dept": "PL"
+    },
+    {
+      "slno": 18,
+      "deptname": "Printing Technology",
+      "dept": "PT"
+    },
+    {
+      "slno": 19,
+      "deptname": "Textile Technology",
+      "dept": "TT"
+    },
+    {
+      "slno": 20,
+      "deptname": "Tool & Die Engineering",
+      "dept": "TD"
+    },
+    {
+      "slno": 21,
+      "deptname": "Wood and Paper Technology",
+      "dept": "WP"
+    }
+  ]
